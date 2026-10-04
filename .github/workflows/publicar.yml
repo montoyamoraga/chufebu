@@ -1,0 +1,55 @@
+name: Retratar y publicar
+
+# Genera las capturas y la BOM con kicad-retrata (y hace commit si cambian),
+# y después construye docs/ con Jekyll y lo despliega en GitHub Pages, todo
+# en la misma corrida.
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    if: github.repository == 'piruetasxyz/chufebu'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Retratar con kicad-retrata
+        uses: piruetasxyz/kicad-retrata@v0
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Construir con Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./docs
+          destination: ./_site
+
+      - name: Subir artefacto de Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  desplegar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - name: Desplegar en GitHub Pages
+        id: despliegue
+        uses: actions/deploy-pages@v4
