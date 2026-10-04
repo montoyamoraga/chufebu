@@ -1,0 +1,13 @@
+# Configuración de kicad-retrata (https://github.com/piruetasxyz/kicad-retrata).
+# Todas las rutas son relativas a la raíz del repositorio.
+carpeta-imagenes: docs/images
+
+descripciones:
+  "Connector:Conn_01x04_Pin": "Conector de alimentación (4 pines)"
+  "Connector_Generic:Conn_02x08_Odd_Even": "Header de alimentación Eurorack (16 pines)"
+
+# Para cambiar de revisión, actualizar "proyecto" (por ejemplo rev-a → rev-b).
+modulos:
+  - nombre: chufebu
+    proyecto: hardware/chufebu-v-0-rev-a/chufebu-v-0-rev-a
+    doc: docs/index.md
