@@ -42,7 +42,7 @@ Según el estándar Eurorack de Doepfer. La franja roja del cable plano va del l
 
 ## Revisiones
 
-- `v-0-rev-a`: fabricada en octubre 2026, todavía sin probar.
+- `v0.1 rev-a`: fabricada en octubre 2026, todavía sin probar.
 
 ## Estructura del repositorio
 
@@ -55,7 +55,7 @@ Según el estándar Eurorack de Doepfer. La franja roja del cable plano va del l
 
 piruetas vende chufebu armado y probado.
 
-Como es hardware de código abierto, los archivos fuente de KiCad, los archivos de fabricación de [hardware/chufebu-v-0-rev-a-fab](./hardware/chufebu-v-0-rev-a-fab) y la [Bill of materials](https://piruetas.xyz/chufebu/#bill-of-materials-v-0-rev-a) están publicados para que cualquiera pueda estudiar, modificar y fabricar el diseño. piruetas no da soporte para unidades fabricadas o armadas por terceros.
+Como es hardware de código abierto, los archivos fuente de KiCad, los archivos de fabricación de [hardware/chufebu-v-0-rev-a-fab](./hardware/chufebu-v-0-rev-a-fab) y la [Bill of materials](https://piruetas.xyz/chufebu/#bill-of-materials-v01-rev-a) están publicados para que cualquiera pueda estudiar, modificar y fabricar el diseño. piruetas no da soporte para unidades fabricadas o armadas por terceros.
 
 ## Licencia
 
