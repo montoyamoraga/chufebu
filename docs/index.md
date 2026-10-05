@@ -58,6 +58,10 @@ Generados automáticamente por GitHub Actions a partir de `hardware/chufebu-v-0-
 
 ![Placa de chufebu v0.1 rev-a](./images/chufebu-placa.svg)
 
+Render 3D de la placa:
+
+<video src="./videos/chufebu-placa-3d-giro.mp4" autoplay loop muted playsinline width="540">Render 3D de la placa de chufebu v0.1 rev-a.</video>
+
 ## Bill of materials (v0.1 rev-a)
 
 Generado a partir de `hardware/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch`.
