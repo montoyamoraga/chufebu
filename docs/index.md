@@ -4,7 +4,7 @@ Bus de alimentación eurorack: 5 headers de 16 pines (2x08) con ±12V y +5V, cad
 
 ## Revisiones
 
-- `v-0-rev-a`: en progreso, octubre 2026.
+- `v-0-rev-a`: fabricada en octubre 2026, todavía sin probar.
 
 ## Esquemático y placa (v-0-rev-a)
 
