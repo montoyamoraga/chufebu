@@ -2,7 +2,7 @@
 
 ## About
 
-chufebu is an open source hardware Eurorack power bus board by [piruetas](https://piruetas.xyz). It distributes ±12V, +5V, CV and GATE to five 16-pin Eurorack power headers, and adds five 4-pin Molex KK-396 connectors in parallel for testing. The design is made in KiCad 10 using only KiCad's standard libraries. Hardware is licensed under CERN-OHL-P-2.0 and documentation under CC-BY-SA-4.0 (see [LICENSE.md](./LICENSE.md)). Documentation, schematic, board render and bill of materials (in Spanish): <https://piruetas.xyz/chufebu/>.
+chufebu is an open source hardware Eurorack power bus board by [piruetas](https://piruetas.xyz). It distributes ±12V, +5V, CV and GATE to five 16-pin Eurorack power headers, each one paired with its own 4-pin Molex KK-396 connector for testing. The design is made in KiCad 10 using only KiCad's standard libraries. Hardware is licensed under CERN-OHL-P-2.0 and documentation under CC-BY-SA-4.0 (see [LICENSE.md](./LICENSE.md)). Documentation, schematic, board render and bill of materials (in Spanish): <https://piruetas.xyz/chufebu/>.
 
 ## Acerca de
 
@@ -13,32 +13,14 @@ Documentación, esquemático, placa y Bill of materials: <https://piruetas.xyz/c
 ## Características
 
 - 5 headers de alimentación Eurorack de 16 pines (2x08), conectados en bus.
-- 5 conectores Molex KK-396 de 4 pines en paralelo, para pruebas: -12V, GND, +5V y +12V.
+- Cada header tiene su conector Molex KK-396 de 4 pines, para pruebas: -12V, GND, +5V y +12V.
 - Las líneas CV y GATE también van en bus entre los 5 headers.
 - Placa de 100 × 45 mm, 2 capas, con 2 agujeros de montaje M3.
 - Solamente usa las bibliotecas estándar de KiCad 10: no hace falta instalar bibliotecas adicionales para abrir o modificar el diseño.
 
-## Pines de los headers de 16 pines
+## Pines y manual de uso
 
-Según el estándar Eurorack de Doepfer. La franja roja del cable plano va del lado de -12V.
-
-| Pines | Señal |
-| ------ | --- |
-| 1, 2 | -12V |
-| 3 a 8 | GND |
-| 9, 10 | +12V |
-| 11, 12 | +5V |
-| 13, 14 | CV |
-| 15, 16 | GATE |
-
-## Pines de los conectores KK-396
-
-| Pin | Señal |
-| --- | --- |
-| 1 | -12V |
-| 2 | GND |
-| 3 | +5V |
-| 4 | +12V |
+Los pines de los headers de 16 pines y de los conectores KK-396, cómo conectar chufebu y las advertencias están en el [manual de uso](https://piruetas.xyz/chufebu/#manual-de-uso).
 
 ## Revisiones
 

@@ -3,7 +3,7 @@
 carpeta-imagenes: docs/images
 
 descripciones:
-  "Connector:Conn_01x04_Pin": "Conector de alimentación (4 pines)"
+  "Connector:Conn_01x04_Pin": "Conector de alimentación (4 pines): Molex KK-396 5273-04A, 1x04, 3.96 mm, vertical, THT"
   "Connector_Generic:Conn_02x08_Odd_Even": "Header de alimentación Eurorack (16 pines): box header 2x08, 2.54 mm, vertical, THT, con carcasa y muesca de polarización ([Thonk](https://www.thonk.co.uk/shop/16pin-power-headers-shrouded/))"
 
 # Para cambiar de revisión, actualizar "proyecto" (por ejemplo rev-a → rev-b).
