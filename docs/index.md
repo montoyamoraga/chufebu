@@ -4,17 +4,17 @@ Bus de alimentación eurorack: 5 headers de 16 pines (2x08) con ±12V y +5V, cad
 
 ## Revisiones
 
-- `v-0-rev-a`: fabricada en octubre 2026, todavía sin probar.
+- `v0.1 rev-a`: fabricada en octubre 2026, todavía sin probar.
 
-## Esquemático y placa (v-0-rev-a)
+## Esquemático y placa (v0.1 rev-a)
 
 Generados automáticamente por GitHub Actions a partir de `hardware/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch` y `.kicad_pcb` en cada push que los modifica.
 
-![Esquemático de chufebu v-0-rev-a](./images/chufebu-esquematico.svg)
+![Esquemático de chufebu v0.1 rev-a](./images/chufebu-esquematico.svg)
 
-![Placa de chufebu v-0-rev-a](./images/chufebu-placa.svg)
+![Placa de chufebu v0.1 rev-a](./images/chufebu-placa.svg)
 
-## Bill of materials (v-0-rev-a)
+## Bill of materials (v0.1 rev-a)
 
 Generado a partir de `hardware/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch`.
 
@@ -22,7 +22,7 @@ Generado a partir de `hardware/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch`.
 
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
-| J1, J2, J3, J7, J8 | 5 | Conn_02x08_Odd_Even | Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical | Header de alimentación Eurorack (16 pines) |
+| J1, J2, J3, J7, J8 | 5 | Conn_02x08_Odd_Even | Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical | Header de alimentación Eurorack (16 pines): box header 2x08, 2.54 mm, vertical, THT, con carcasa y muesca de polarización ([Thonk](https://www.thonk.co.uk/shop/16pin-power-headers-shrouded/)) |
 | J4, J5, J6, J9, J10 | 5 | Conn_01x04_Pin | Connector_Molex:Molex_KK-396_5273-04A_1x04_P3.96mm_Vertical | Conector de alimentación (4 pines) |
 
 10 componentes en total.

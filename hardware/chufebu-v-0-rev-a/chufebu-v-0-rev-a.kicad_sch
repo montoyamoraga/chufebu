@@ -5,7 +5,7 @@
 	(uuid "76d7d92c-1316-4bcb-a187-c7124ef49ded")
 	(paper "A5")
 	(title_block
-		(title "chufebu-v-0")
+		(title "chufebu v0.1")
 		(date "2026-10-02")
 		(rev "rev-a")
 		(company "piruetas SpA")
