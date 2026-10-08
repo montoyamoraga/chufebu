@@ -39,6 +39,11 @@ piruetas vende chufebu armado y probado.
 
 Como es hardware de código abierto, los archivos fuente de KiCad, los archivos de fabricación de [hardware/chufebu-v-0-rev-a-fab](./hardware/chufebu-v-0-rev-a-fab) y la [Bill of materials](https://piruetas.xyz/chufebu/#bill-of-materials-v01-rev-a) están publicados para que cualquiera pueda estudiar, modificar y fabricar el diseño. piruetas no da soporte para unidades fabricadas o armadas por terceros.
 
+## Créditos
+
+- Aarón Montoya-Moraga: investigación, esquemático, PCB, fabricación y documentación.
+- Matías Serrano: revisor experto de esquemáticos y PCBs.
+
 ## Licencia
 
 chufebu es (c) 2026 piruetas SpA / Aarón Montoya-Moraga.

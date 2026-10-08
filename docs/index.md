@@ -89,6 +89,11 @@ Fabricar con los gerbers y archivos de taladrado de [`hardware/chufebu-v-0-rev-a
 | Cobre | 35 µm (1 oz) |
 | Acabado superficial | HASL sin plomo (LeadFree HASL) |
 
+## Créditos
+
+- Aarón Montoya-Moraga: investigación, esquemático, PCB, fabricación y documentación.
+- Matías Serrano: revisor experto de esquemáticos y PCBs.
+
 ## Licencia
 
 El hardware está bajo CERN-OHL-P-2.0 y esta documentación bajo CC-BY-SA-4.0. Ver [LICENSE.md](https://github.com/piruetasxyz/chufebu/blob/main/LICENSE.md).
