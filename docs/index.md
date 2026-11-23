@@ -1,10 +1,11 @@
 # chufebu
 
-Bus de alimentación eurorack: 5 headers de 16 pines (2x08) con ±12V y +5V, cada uno con su conector Molex KK-396 de 4 pines.
+Bus de alimentación eurorack: 5 headers de 16 pines (2x08) con ±12V y +5V.
 
 ## Revisiones
 
-- `v0.1 rev-a`: fabricada en octubre 2026, todavía sin probar.
+- `v0.1 rev-b`: fabricada y probada en noviembre 2026. Sin conectores Molex KK-396, placa de 100 × 40 mm y 4 agujeros de montaje M3.
+- `v0.1 rev-a`: fabricada en octubre 2026, probada y funciona. Incluía 5 conectores Molex KK-396 de 4 pines.
 
 ## Manual de uso
 
@@ -12,12 +13,12 @@ Bus de alimentación eurorack: 5 headers de 16 pines (2x08) con ±12V y +5V, cad
 
 - Una fuente de alimentación Eurorack con ±12V (y +5V si algún módulo lo usa).
 - Cables planos Eurorack de 16 pines (16-16) o de 10 a 16 pines (10-16), uno por módulo.
-- Opcional: 2 tornillos M3 y separadores para montar la placa.
+- Opcional: 4 tornillos M3 y separadores para montar la placa.
 
 ### Conexión
 
-1. Con la fuente **apagada**, conecta la fuente a uno de los headers de 16 pines o a uno de los conectores Molex.
-2. Conecta cada módulo con un cable plano a cualquiera de los headers de 16 pines.
+1. Con la fuente **apagada**, conecta la fuente a uno de los headers de 16 pines.
+2. Conecta cada módulo con un cable plano a cualquiera de los otros headers de 16 pines.
 3. Orienta cada cable con la **franja roja hacia -12V**. El serigrafiado de la placa marca `-12` en un extremo del header.
 4. Revisa todas las conexiones antes de encender la fuente.
 
@@ -34,15 +35,6 @@ Header de 16 pines (según el estándar Eurorack de Doepfer):
 | 13, 14 | CV |
 | 15, 16 | GATE |
 
-Conector Molex KK-396 de 4 pines:
-
-| Pin | Señal |
-| --- | --- |
-| 1 | -12V |
-| 2 | GND |
-| 3 | +5V |
-| 4 | +12V |
-
 ### Advertencias
 
 - Un cable plano conectado al revés puede dañar el módulo o la fuente. Los headers tienen carcasa con muesca de polarización, pero revisa siempre la franja roja, sobre todo en el lado del módulo.
@@ -50,21 +42,21 @@ Conector Molex KK-396 de 4 pines:
 - chufebu no tiene fusibles ni protección contra polaridad inversa: la protección depende de la fuente y de cada módulo.
 - La corriente total disponible la limita la fuente. Suma el consumo de tus módulos en cada línea y no superes lo que entrega la fuente.
 
-## Esquemático y placa (v0.1 rev-a)
+## Esquemático y placa (v0.1 rev-b)
 
-Generados automáticamente por GitHub Actions a partir de `hardware/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch` y `.kicad_pcb` en cada push que los modifica.
+Generados automáticamente por GitHub Actions a partir de `hardware/chufebu-v-0-rev-b/chufebu-v-0-rev-b.kicad_sch` y `.kicad_pcb` en cada push que los modifica.
 
-![Esquemático de chufebu v0.1 rev-a](./images/chufebu-esquematico.svg)
+![Esquemático de chufebu v0.1 rev-b](./images/chufebu-esquematico.svg)
 
-![Placa de chufebu v0.1 rev-a](./images/chufebu-placa.svg)
+![Placa de chufebu v0.1 rev-b](./images/chufebu-placa.svg)
 
 Render 3D de la placa:
 
-<video src="./videos/chufebu-placa-3d-giro.mp4" autoplay loop muted playsinline width="540">Render 3D de la placa de chufebu v0.1 rev-a.</video>
+<video src="./videos/chufebu-placa-3d-giro.mp4" autoplay loop muted playsinline width="540">Render 3D de la placa de chufebu v0.1 rev-b.</video>
 
-## Bill of materials (v0.1 rev-a)
+## Bill of materials (v0.1 rev-b)
 
-Generado a partir de `hardware/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch`.
+Generado a partir de `hardware/chufebu-v-0-rev-b/chufebu-v-0-rev-b.kicad_sch`.
 
 <!-- BOM_TABLE_START -->
 
@@ -79,12 +71,12 @@ Generado a partir de `hardware/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch`.
 
 ### Placa (PCB)
 
-Fabricar con los gerbers y archivos de taladrado de [`hardware/chufebu-v-0-rev-a-fab`](https://github.com/piruetasxyz/chufebu/tree/main/hardware/chufebu-v-0-rev-a-fab).
+Fabricar con los gerbers y archivos de taladrado de [`hardware/chufebu-v-0-rev-b-fab`](https://github.com/piruetasxyz/chufebu/tree/main/hardware/chufebu-v-0-rev-b-fab).
 
 | Especificación | Valor |
 | --- | --- |
 | Capas | 2 |
-| Tamaño | 100 × 45 mm |
+| Tamaño | 100 × 40 mm |
 | Grosor | 1.6 mm |
 | Cobre | 35 µm (1 oz) |
 | Acabado superficial | HASL sin plomo (LeadFree HASL) |
