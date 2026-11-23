@@ -62,10 +62,9 @@ Generado a partir de `hardware/chufebu-v-0-rev-b/chufebu-v-0-rev-b.kicad_sch`.
 
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
-| J1, J2, J3, J7, J8 | 5 | Conn_02x08_Odd_Even | Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical | Header de alimentación Eurorack (16 pines): box header 2x08, 2.54 mm, vertical, THT, con carcasa y muesca de polarización ([Thonk](https://www.thonk.co.uk/shop/16pin-power-headers-shrouded/)) |
-| J4, J5, J6, J9, J10 | 5 | Conn_01x04_Pin | Connector_Molex:Molex_KK-396_5273-04A_1x04_P3.96mm_Vertical | Conector de alimentación (4 pines): Molex KK-396 5273-04A, 1x04, 3.96 mm, vertical, THT |
+| J1, J2, J3, J4, J5 | 5 | Conn_02x08_Odd_Even | Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical | Header de alimentación Eurorack (16 pines): box header 2x08, 2.54 mm, vertical, THT, con carcasa y muesca de polarización ([Thonk](https://www.thonk.co.uk/shop/16pin-power-headers-shrouded/)) |
 
-10 componentes en total.
+5 componentes en total.
 
 <!-- BOM_TABLE_END -->
 
